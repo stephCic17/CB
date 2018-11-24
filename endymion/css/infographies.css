@@ -1,0 +1,32 @@
+.image-full {
+	width: 80%;
+	text-align: left;
+	margin: 10px;
+	height: auto;
+	display: inline-block;
+}
+
+.image-full .field-content {
+	margin: 0px;
+	padding:0px;
+}
+
+
+.img-infographie {
+	width: 70%;
+	text-align: left;
+	display: inline-block;
+
+}
+.title-infographie {
+		width: 15%;
+	text-align: right;
+	display: inline-block;
+}
+
+.description-infographie {
+		width: 15%;
+	text-align: right;
+	display: inline-block;
+	float: right;
+}

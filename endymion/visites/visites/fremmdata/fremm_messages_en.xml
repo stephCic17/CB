@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[FREMM Aquitaine]]></data>
+
+
+
+  <data name="en_pano228_title"><![CDATA[Plateforme hélicoptère]]></data>
+
+
+  <data name="en_pano240_title"><![CDATA[Extérieur passerelle tribord]]></data>
+
+
+  <data name="en_pano232_title"><![CDATA[Plage arrière babord]]></data>
+
+
+  <data name="en_pano242_title"><![CDATA[Niche embarcation babord]]></data>
+
+
+  <data name="en_pano246_title"><![CDATA[Hangar hélicoptère]]></data>
+
+
+  <data name="en_pano248_title"><![CDATA[Passerelle]]></data>
+
+
+  <data name="en_pano250_title"><![CDATA[Passerelle AVIA]]></data>
+
+
+  <data name="en_pano252_title"><![CDATA[PC machines]]></data>
+
+
+  <data name="en_pano254_title"><![CDATA[Local canon 76 mm]]></data>
+
+
+  <data name="en_pano258_title"><![CDATA[Local machines]]></data>
+
+
+  <data name="en_pano260_title"><![CDATA[Compartiment torpille]]></data>
+
+
+  <data name="en_pano264_title"><![CDATA[Compartiment missiles]]></data>
+
+
+  <data name="en_pano266_title"><![CDATA[Turbine à gaz]]></data>
+
+
+  <data name="en_pano268_title"><![CDATA[Infirmerie]]></data>
+
+
+  <data name="en_pano270_title"><![CDATA[Coursive (nuit)]]></data>
+
+
+  <data name="en_pano272_title"><![CDATA[Cabine 1 personne]]></data>
+
+
+  <data name="en_pano276_title"><![CDATA[Cabine 4 personnes]]></data>
+
+
+  <data name="en_pano278_title"><![CDATA[Carré OMS]]></data>
+
+
+  <data name="en_pano282_title"><![CDATA[Cuisine]]></data>
+
+
+  <data name="en_pano284_title"><![CDATA[Rampe alimentaire]]></data>
+
+
+  <data name="en_pano286_title"><![CDATA[Salle de sport]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#combat]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">FREMM AQUITAINE</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Première frégate ASM du programme FREMM (FREgates MultiMissions), l’Aquitaine a été construite par les chantiers DCNS à Lorient sous maîtrise d’ouvrage de l’OCCAR. Elle a effectué sa première sortie à la mer le 18 avril 2011 avec à son bord un équipage de soixante dix personnes, chargé de sa mise en œuvre. Cet équipage sera renforcé progressivement et assurera la vérification des caractéristiques militaires de cette première de série. Elle a été livrée à la Marine nationale le 23 novembre 2012.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- Signature du programme FREMM par la France et l’Italie : 14 novembre 2005 ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- Découpe de la première tôle : 16 mars 2007 ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- Mis sur cale dans les chantiers DCNS à Lorient : décembre 2007 ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Missions :</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- la maîtrise de la zone d’opération aéro-maritime (soutien à la FOST, escorte, protection),</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- la frappe dans la profondeur avec le missile de croisière naval,</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- les luttes antinavires, anti-sous-marine et anti-aérienne</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- le soutien et l'appui des opérations de projection.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

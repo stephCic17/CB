@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.18">
+
+<!-- ********* -->
+<!-- Gyroscope -->
+<!-- ********* -->
+<plugin name="gyroscope"
+        url="graphics/gyro.js"
+        keep="true"
+        devices="no-desktop.and.html5"
+
+
+        camroll="false"
+
+        friction="0.5"
+        onavailable="delayedcall(1, checkGyroAvailability(););"
+        enabled="false"
+        activated="false"
+        />
+
+<events name="gyroscopeEvents" onnewpano="planarGyroscopeTest();" keep="true" />
+
+<action name="planarGyroscopeTest">
+  if(plugin[gyroscope],
+    ifnot (plugin[gyroscope].available === undefined, 
+      if (plugin[gyroscope].available,
+        if(scene[get(xml.scene)].planar,
+          if(plugin[gyroscope].enabled,
+            switch(plugin[gyroscope].enabled);
+            if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+          );
+        ,
+          if(plugin[gyroscope].activated,
+            ifnot(plugin[gyroscope].enabled,
+              switch(plugin[gyroscope].enabled);
+              if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+            );
+          );
+        );
+      );
+    );
+  );
+</action>
+
+<action name="changeGyroscopeState">
+  if(plugin[gyroscope],
+    ifnot (plugin[gyroscope].available === undefined,
+      if (plugin[gyroscope].available,
+        if(%1,
+          set(plugin[gyroscope].activated,true);
+        ,
+          set(plugin[gyroscope].activated,false);
+        );
+        if (%1 !=  plugin[gyroscope].enabled,
+          if(plugin[gyroscope].activated,
+            switch(plugin[gyroscope].enabled);
+          ,
+            set(plugin[gyroscope].enabled, false);
+          );
+          if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+        );
+      );
+    );
+  );
+</action>
+
+<action name="checkGyroAvailability">
+  if(plugin[gyroscope],
+    ifnot (plugin[gyroscope].available === undefined, 
+      if (plugin[gyroscope].available,
+        ifnot(scene[get(xml.scene)].planar,
+          switch(plugin[gyroscope].enabled);
+          set(plugin[gyroscope].activated,true);
+        );
+        set(tour_gyroscopedevices, true);
+        events.dispatch(ongyroscopeavailable);
+      ,
+        set(tour_gyroscopedevices, false);
+      );
+    ,
+      set(tour_gyroscopedevices, false);
+    );
+    if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+  );
+</action>
+
+  <!-- ******************************************* -->
+  <!-- Button : topleft -->
+  <!-- ******************************************* -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/home_mobile.png" 
+         align="topleft"
+         x="10"
+         y="10"
+         zorder="1"
+         visible="false"
+         onclick="buttonOnClick"
+         height="65"
+         width="109"
+         />
+  <action name="buttonOnClick">openurl(../index.html#semaphore,_self);
+
+
+  </action>
+
+  <events name="buttonevents" 
+    onTourStart="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">set(layer[button].visible, true);</action>
+
+
+
+  <!-- ******************** -->
+  <!-- Combobox : panoramas -->
+  <!-- ******************** -->
+
+
+<events name="combopanolistallpanoramasStartTourEvents" onTourStart="set(layer[combopanolistallpanoramas].isStarted, true);if(layer[combopanolistallpanoramas].isLoaded,combopanolistallpanoramasShow(););" keep="true" />
+
+
+  <layer name="combopanolistallpanoramas"
+         url="%FIRSTXML%/graphics/combobox.js"
+         keep="true"
+         visible="false"
+         zorder="2"
+         align="topright"
+         x="10" y="10"
+         rowcount="10"
+         onloaded="combopanolistallpanoramasLoaded();"
+         isStarted="false"
+         isLoaded="false"
+         itemcount="0"
+         />
+
+  <action name="combopanolistallpanoramasLoaded">
+    
+    layer[combopanolistallpanoramas].removeAll();
+    set(layer[combopanolistallpanoramas].itemcount, 0);
+    
+    combopanolistallpanoramasAddItem(pano228_title, pano228, pano228, false);
+    combopanolistallpanoramasAddItem(pano230_title, pano230, pano230, false);
+    combopanolistallpanoramasAddItem(pano234_title, pano234, pano234, false);
+    combopanolistallpanoramasAddItem(pano236_title, pano236, pano236, false);
+    combopanolistallpanoramasAddItem(pano238_title, pano238, pano238, false);
+    set(layer[combopanolistallpanoramas].isLoaded, true);
+    
+    if(layer[combopanolistallpanoramas].isStarted,
+      combopanolistallpanoramasShow();
+    );
+  </action>
+
+
+  <action name="combopanolistallpanoramasAddItem">
+    getmessage(caption, %1);
+    
+    indexoftxt(found, get(caption), '&amp;');
+    if(found GE 0,
+      subtxt(part1, get(caption), 0, get(found));
+      add(found, 5);
+      subtxt(part2, get(caption), get(found), get(caption.length));
+      txtadd(caption, get(part1), '&amp;', get(part2));
+    );
+    if(%4,
+      txtadd(title, "&#x00A0;&#x00A0;&#x00A0;", get(caption));
+    ,
+      set(title, get(caption));
+    );
+    layer[combopanolistallpanoramas].addIdItem(%2, get(title), mainloadscene(%3));
+    inc(layer[combopanolistallpanoramas].itemcount);
+  </action>
+
+  <events name="combopanolistallpanoramasEvents"
+          hidetourcontrols="combopanolistallpanoramasHide();"
+          showtourcontrols="combopanolistallpanoramasShow();"
+          onnewpano="combopanolistallpanoramasOnPanorama();"
+          keep="true"/>
+
+  <action name="combopanolistallpanoramasHide">
+    set(layer[combopanolistallpanoramas].visible, false);
+  </action>
+  <action name="combopanolistallpanoramasShow">
+  if(layer[combopanolistallpanoramas].isLoaded,
+    if (layer[combopanolistallpanoramas].itemcount GT 0,
+      set(layer[combopanolistallpanoramas].visible, true);
+    ,
+      set(layer[combopanolistallpanoramas].visible, false);
+    );
+  ,
+    set(layer[combopanolistallpanoramas].visible, false);
+  );
+  </action>
+
+  <action name="combopanolistallpanoramasOnPanorama">
+    if(layer[combopanolistallpanoramas].isLoaded,
+      combopanolistallpanoramasUpdateList();
+    ,
+      delayedcall(0.2, combopanolistallpanoramasOnPanorama);
+    );
+  </action>
+
+
+  <action name="combopanolistallpanoramasUpdateList">
+    set(itemtoselect, get(scene[get(xml.scene)].name));
+    layer[combopanolistallpanoramas].selectIdItem(get(itemtoselect));
+  </action>
+
+
+  <!-- *********** -->
+  <!-- Description -->
+  <!-- *********** -->
+
+
+<ptplugin name="description" canStart="false" newPano="false" openatstart="true" startMethod="showProjectDescription-description" engine="kolorArea">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="start_position" value="top" type="string" />
+		<option name="margin_x" value="1" type="int" />
+		<option name="margin_y" value="1" type="int" />
+		<option name="background_color" value="000000" type="string" />
+		<option name="background_alpha" value="0.8" type="float" />
+		<option name="topleft_radius" value="5" type="int" />
+		<option name="topright_radius" value="5" type="int" />
+		<option name="bottomleft_radius" value="5" type="int" />
+		<option name="bottomright_radius" value="5" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f20004" type="string" />
+		<option name="padding" value="20" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="area_width" value="80" type="int" />
+		<option name="area_height" value="80" type="int" />
+		<option name="area_width_unit" value="percent" type="string" />
+		<option name="area_height_unit" value="percent" type="string" />
+		<option name="animation" value="true" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="refresh_content" value="true" type="bool" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback-description')" type="string" />
+		<option name="close_on_click" value="true" type="bool" />
+		<option name="close_onclick_callback" value="invokeKrFunction('closeKolorAreaCallbackClick-description')" type="string" />
+		<option name="zorder" value="3" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+</ptplugin>
+
+<action name="kolorAreaJsReady-description">
+	set(ptplugin[description].jsready, true);
+
+</action>
+
+<action name="updateTitle-description">
+	js(invokePluginFunction(description, changeTitle, get(scene[get(xml.scene)].titleid)));
+</action>
+
+<action name="openKolorArea-description">
+	set(ptplugin[description].isOpen, true);
+	js(showKolorArea(description, get(ptplugin[description].descID)));
+</action>
+
+<action name="closeKolorArea-description">
+	js(invokePluginFunction(description, closeKolorArea));
+</action>
+
+<action name="toggleKolorArea-description">
+	if(ptplugin[description].isOpen,
+		closeKolorArea-description();
+	,
+		openKolorArea-description();
+	);
+</action>
+
+<action name="closeKolorAreaCallback-description">
+	set(ptplugin[description].isOpen, false);
+	if(tour_displayinfo,hideTourInfo();
+
+	);
+</action>
+
+<action name="closeKolorAreaCallbackClick-description">
+	if(tour_displayinfo,hideTourInfo();
+
+	);
+</action>
+
+
+<action name="showKolorArea-description">
+	ifnot(ptplugin[description].startMethod == "",
+		delayedcall(0,get(ptplugin[description].startMethod));
+	,
+		js(invokePluginFunction(description, showKolorArea, %1));
+	);
+</action>
+	
+<action name="hideKolorArea-description">
+	js(invokePluginFunction(description, hideKolorArea, %1));
+</action>
+
+<action name="openDescription-description">
+	openKolorArea-description();
+</action>
+
+<action name="openSpotDescription-description">
+	set(ptplugin[description].descID, %1);
+	openKolorArea-description();
+</action>
+
+<action name="closeDescription-description">
+	set(ptplugin[description].currentGroup, false);
+	closeKolorArea-description();
+</action> 
+
+<action name="showProjectDescription-description">
+	if(ptplugin[description].canStart,
+		set(ptplugin[description].descID, get(projectdescriptionid));
+		if(ptplugin[description].descID != "",
+			openDescription-description();
+		,
+			hideKolorArea-description(false);
+		);
+		set(ptplugin[description].startMethod, "");
+	);
+</action>
+
+
+
+<events name="kolorAreaEvents-description" 
+	keep="true"
+	onTourStart="set(ptplugin[description].canStart, true);if(ptplugin[description].openatstart,if(tour_displaycontrols,showTourInfo();
+););"
+	onshowtourinfo="showProjectDescription-description();"
+	onhidetourinfo="closeDescription-description();"
+	hidetourcontrols="hideKolorArea-description(false);"
+	showtourcontrols="if(tour_displayinfo,if(ptplugin[description].isOpen,showKolorArea-description(false);,showProjectDescription-description(););,showTourInfo();
+);"
+/>
+
+  <!-- Tour Information -->
+  <action name="hideTourInfo">set(tour_displayinfo, false);events.dispatch(onhidetourinfo);</action>
+  <action name="showTourInfo">set(tour_displayinfo, true); events.dispatch(onshowtourinfo);</action>
+
+
+</krpano>

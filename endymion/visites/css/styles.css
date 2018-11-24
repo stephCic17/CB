@@ -1,0 +1,1457 @@
+/* Remise à zéro HTML5 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+font-size: 100%;
+vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+{
+display: block;
+}
+
+html
+{
+width: 100%;
+height: 100%;
+}
+
+img
+{
+border:none;
+}
+
+
+
+/*************************************************** GRAND ECRAN ***************************************************/
+@media screen and (min-width: 1000px) {
+  body
+  {
+    background: url("../images/fond/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #20419a;
+    border: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+  }
+
+#bloc_blanc
+{
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+  width: 980px;
+  height: 100%;
+  min-height: 3980px;
+}
+
+#bloc_blanc_2
+{
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+  width: 980px;
+  height: 100%;
+  min-height: 1900px;
+}
+
+header
+{
+  margin: auto;
+  text-align: center;
+  width: 980px;
+}
+
+#logo_colsbleus
+{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 293px;
+  height: 52px;
+  background-image:url("../images/header/logo_colsbleus.jpg");
+  float: left;
+}
+
+#logo_360
+{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom : 20px;
+  width: 176px;
+  height: 52px;
+  background-image:url("../images/header/logo_360.jpg");
+  float: right;
+}
+
+#trait_bleu
+{
+  clear: both;
+  margin: auto;
+  text-align: center;
+  width: 940px;
+  height: 1px;
+  background-image:url("../images/header/trait_bleu.jpg");
+}
+
+nav
+{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+  width: 980px;
+}
+
+#accueil
+{
+  float: left;
+  margin-top: -1px;
+}
+
+#barre
+{
+  margin-left: 7px;
+  margin-right: 7px;
+  float: left;
+}
+
+#lien_menu
+{
+  float: left;
+}
+
+.texte_menu
+{
+  font-family: "Lucida Grande", Arial, Sans-Serif;
+  font-weight: normal;
+  color: #20419a;
+  font-size: 13px;
+  text-transform : uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.texte_menu_actif
+{
+  font-family: "Lucida Grande", Arial, Sans-Serif;
+  font-weight: bold;
+  color: #ed1a3a;
+  font-size: 16px;
+  text-transform : uppercase;
+  text-decoration: none;
+  text-align: left;
+}
+
+.texte_menu:hover
+{
+  color: #ed1a3a;
+  text-decoration: underline;
+}
+
+#introduction
+{
+  clear: both;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: justify;
+}
+
+#mobilite
+{
+  margin: auto;
+  text-align: center;
+  width: 714px;
+  height: 290px;
+  background-image:url("../images/header/mobilite.jpg");
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+h1
+{
+  font-family: "Lucida Grande", Arial, Sans-Serif;
+  font-weight: normal;
+  color: #313131;
+  font-size: 16px;
+}
+
+#combat, #sous_marin, #soutien, #aeronef, #semaphore, #snsm, #emm
+{
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#credits
+{
+  margin: auto;
+  text-align: center;
+  margin-top: 150px;
+}
+
+h2
+{
+  font-family: "Lucida Grande", Arial, Sans-Serif;
+  font-weight: bold;
+  color: #ed1a3a;
+  font-size: 18px;
+  text-transform : uppercase;
+  text-decoration: none;
+}
+
+#boutons
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.bouton_atl2
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/atl2_0.jpg');
+}
+
+.bouton_atl2:hover
+{
+  background-image: url('../images/bouton/atl2_1.jpg');
+}
+
+.bouton_bpc
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/bpc_0.jpg');
+}
+
+.bouton_bpc:hover
+{
+  background-image: url('../images/bouton/bpc_1.jpg');
+}
+
+.bouton_bsad
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/bsad_0.jpg');
+}
+
+.bouton_bsad:hover
+{
+  background-image: url('../images/bouton/bsad_1.jpg');
+}
+
+.bouton_cmt
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/cmt_0.jpg');
+}
+
+.bouton_cmt:hover
+{
+  background-image: url('../images/bouton/cmt_1.jpg');
+}
+
+.bouton_pegase
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/pegase_0.jpg');
+}
+
+.bouton_pegase:hover
+{
+  background-image: url('../images/bouton/pegase_1.jpg');
+}
+
+.bouton_ec225
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/ec225_0.jpg');
+}
+
+.bouton_ec225:hover
+{
+  background-image: url('../images/bouton/ec225_1.jpg');
+}
+
+.bouton_falcon
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/falcon_0.jpg');
+}
+
+.bouton_falcon:hover
+{
+  background-image: url('../images/bouton/falcon_1.jpg');
+}
+
+.bouton_flf
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/flf_0.jpg');
+}
+
+.bouton_flf:hover
+{
+  background-image: url('../images/bouton/flf_1.jpg');
+}
+
+.bouton_fremm
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/fremm_0.jpg');
+}
+
+.bouton_fremm:hover
+{
+  background-image: url('../images/bouton/fremm_1.jpg');
+}
+
+.bouton_pr
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/pr_0.jpg');
+}
+
+.bouton_pr:hover
+{
+  background-image: url('../images/bouton/pr_1.jpg');
+}
+
+.bouton_sema_atl
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/sema_atl_0.jpg');
+}
+
+.bouton_sema_atl:hover
+{
+  background-image: url('../images/bouton/sema_atl_1.jpg');
+}
+
+.bouton_sema_med
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/sema_med_0.jpg');
+}
+
+.bouton_sema_med:hover
+{
+  background-image: url('../images/bouton/sema_med_1.jpg');
+}
+
+.bouton_sna
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/sna_0.jpg');
+}
+
+.bouton_sna:hover
+{
+  background-image: url('../images/bouton/sna_1.jpg');
+}
+
+.bouton_snle
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/snle_0.jpg');
+}
+
+.bouton_snle:hover
+{
+  background-image: url('../images/bouton/snle_1.jpg');
+}
+
+.bouton_cepet
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/cepet_0.jpg');
+}
+
+.bouton_cepet:hover
+{
+  background-image: url('../images/bouton/cepet_1.jpg');
+}
+
+.bouton_batz
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/batz_0.jpg');
+}
+
+.bouton_batz:hover
+{
+  background-image: url('../images/bouton/batz_1.jpg');
+}
+
+.bouton_garoupe
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/garoupe_0.jpg');
+}
+
+.bouton_garoupe:hover
+{
+  background-image: url('../images/bouton/garoupe_1.jpg');
+}
+
+.bouton_camarat
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/camarat_0.jpg');
+}
+
+.bouton_camarat:hover
+{
+  background-image: url('../images/bouton/camarat_1.jpg');
+}
+
+.bouton_brignogan
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/brignogan_0.jpg');
+}
+
+.bouton_brignogan:hover
+{
+  background-image: url('../images/bouton/brignogan_1.jpg');
+}
+
+.bouton_snsm
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/snsm_0.jpg');
+}
+
+.bouton_snsm:hover
+{
+  background-image: url('../images/bouton/snsm_1.jpg');
+}
+
+.bouton_emm
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/emm_0.jpg');
+}
+
+.bouton_emm:hover
+{
+  background-image: url('../images/bouton/emm_1.jpg');
+}
+
+#haut_de_page
+{
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+}
+
+/*************************************************** MOBILE ***************************************************/
+
+@media screen and (max-device-width: 1000px) {
+  body
+  {
+    background-color: white;
+    border: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+  }
+
+  header
+  {
+    margin: auto;
+    text-align: center;
+  }
+
+  #logo_colsbleus
+  {
+    width: 150px;
+    height: 27px;
+    background-image:url("../images/header/logo_colsbleus_mini.jpg");
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  nav
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+  }
+
+  #accueil
+  {
+    float: left;
+    margin-top: -1px;
+  }
+
+  #barre
+  {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #lien_menu
+  {
+    float: left;
+  }
+
+  .texte_menu
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: normal;
+    color: #20419a;
+    font-size: 16px;
+    text-transform : uppercase;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .texte_menu_actif
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: bold;
+    color: #ed1a3a;
+    font-size: 16px;
+    text-transform : uppercase;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .texte_menu:hover
+  {
+    color: #ed1a3a;
+    text-decoration: underline;
+  }
+
+  #introduction
+  {
+    clear:both;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+
+  h1
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: normal;
+    color: #313131;
+    font-size: 14px;
+  }
+
+  #combat, #sous_marin, #soutien, #aeronef, #semaphore, #snsm, #emm
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #credits
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+  h2
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: bold;
+    color: #ed1a3a;
+    font-size: 18px;
+    text-transform : uppercase;
+    text-decoration: none;
+  }
+
+  #boutons
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .bouton_atl2
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/atl2_0.jpg');
+  }
+
+  .bouton_bpc
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/bpc_0.jpg');
+  }
+
+  .bouton_bsad
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/bsad_0.jpg');
+  }
+
+  .bouton_cmt
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/cmt_0.jpg');
+  }
+
+  .bouton_pegase
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/pegase_0.jpg');
+  }
+
+  .bouton_ec225
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/ec225_0.jpg');
+  }
+
+  .bouton_falcon
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/falcon_0.jpg');
+  }
+
+  .bouton_flf
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/flf_0.jpg');
+  }
+
+  .bouton_fremm
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/fremm_0.jpg');
+  }
+
+  .bouton_pr
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/pr_0.jpg');
+  }
+
+  .bouton_sema_atl
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sema_atl_0.jpg');
+  }
+
+  .bouton_sema_med
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sema_med_0.jpg');
+  }
+
+  .bouton_sna
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sna_0.jpg');
+  }
+
+  .bouton_snle
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/snle_0.jpg');
+  }
+
+  .bouton_cepet
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/cepet_0.jpg');
+  }
+
+  .bouton_batz
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/batz_0.jpg');
+  }
+
+  .bouton_garoupe
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/garoupe_0.jpg');
+  }
+
+  .bouton_camarat
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/camarat_0.jpg');
+  }
+
+  .bouton_brignogan
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/brignogan_0.jpg');
+  }
+
+  .bouton_snsm
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/snsm_0.jpg');
+  }
+
+  .bouton_emm
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/emm_0.jpg');
+  }
+
+  #haut_de_page
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+}
+
+/*************************************************** PETIT ECRAN ***************************************************/
+
+@media screen and (max-width: 1000px) {
+  body
+  {
+    background-color: white;
+    border: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height: 100%;
+  }
+
+  header
+  {
+    margin: auto;
+    text-align: center;
+  }
+
+  #logo_colsbleus
+  {
+    width: 150px;
+    height: 27px;
+    background-image:url("../images/header/logo_colsbleus_mini.jpg");
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+  }
+
+  nav
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+
+  }
+
+  #accueil
+  {
+    float: left;
+    margin-top: -1px;
+  }
+
+  #barre
+  {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  #lien_menu
+  {
+    float: left;
+  }
+
+  .texte_menu
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: normal;
+    color: #20419a;
+    font-size: 16px;
+    text-transform : uppercase;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .texte_menu_actif
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: bold;
+    color: #ed1a3a;
+    font-size: 16px;
+    text-transform : uppercase;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .texte_menu:hover
+  {
+    color: #ed1a3a;
+    text-decoration: underline;
+  }
+
+  #introduction
+  {
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+
+  h1
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: normal;
+    color: #313131;
+    font-size: 16px;
+  }
+
+  #combat, #sous_marin, #soutien, #aeronef, #semaphore, #snsm, #emm
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #credits
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+  }
+
+  h2
+  {
+    font-family: "Lucida Grande", Arial, Sans-Serif;
+    font-weight: bold;
+    color: #ed1a3a;
+    font-size: 18px;
+    text-transform : uppercase;
+    text-decoration: none;
+  }
+
+  #boutons
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .bouton_atl2
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/atl2_0.jpg');
+  }
+
+  .bouton_bpc
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/bpc_0.jpg');
+  }
+
+  .bouton_bsad
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/bsad_0.jpg');
+  }
+
+  .bouton_cmt
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/cmt_0.jpg');
+  }
+
+  .bouton_pegase
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/pegase_0.jpg');
+  }
+
+  .bouton_ec225
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/ec225_0.jpg');
+  }
+
+  .bouton_falcon
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/falcon_0.jpg');
+  }
+
+  .bouton_flf
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/flf_0.jpg');
+  }
+
+  .bouton_fremm
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/fremm_0.jpg');
+  }
+
+  .bouton_pr
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/pr_0.jpg');
+  }
+
+  .bouton_sema_atl
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sema_atl_0.jpg');
+  }
+
+  .bouton_sema_med
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sema_med_0.jpg');
+  }
+
+  .bouton_sna
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/sna_0.jpg');
+  }
+
+  .bouton_snle
+  {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 280px;
+    height: 180px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    background-image: url('../images/bouton/snle_0.jpg');
+  }
+
+  .bouton_cepet
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/cepet_0.jpg');
+}
+
+.bouton_batz
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/batz_0.jpg');
+}
+
+.bouton_garoupe
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/garoupe_0.jpg');
+}
+
+.bouton_camarat
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/camarat_0.jpg');
+}
+
+.bouton_brignogan
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/brignogan_0.jpg');
+}
+
+.bouton_snsm
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/snsm_0.jpg');
+}
+
+.bouton_emm
+{
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 280px;
+  height: 180px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  background-image: url('../images/bouton/emm_0.jpg');
+}
+
+  #haut_de_page
+  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+}

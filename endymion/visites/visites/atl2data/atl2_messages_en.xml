@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[ATL2]]></data>
+
+
+
+  <data name="en_pano182_title"><![CDATA[Sortie hangar]]></data>
+
+
+  <data name="en_pano178_title"><![CDATA[Préparation]]></data>
+
+
+  <data name="en_pano184_title"><![CDATA[Cabine pilotage]]></data>
+
+
+  <data name="en_pano188_title"><![CDATA[Tranche tactique]]></data>
+
+
+  <data name="en_pano186_title"><![CDATA[Consoles de contrôle]]></data>
+
+
+  <data name="en_pano192_title"><![CDATA[Poste d'observation]]></data>
+
+
+  <data name="en_pano194_title"><![CDATA[Repas]]></data>
+
+
+  <data name="en_pano196_title"><![CDATA[Chargement bouée]]></data>
+
+
+  <data name="en_pano198_title"><![CDATA[Chargement radeau]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#aeronef]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><span style="font-family: 'trebuchet ms', sans-serif; font-size: large;"><font color="#ff0000">ATLANTIQUE 2</font></span></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">L' Atlantique 2 (ou ATL 2) est un appareil de patrouille maritime à long rayon d'action, doté d'une endurance et d'une étonnante maniabilité, lorsqu'il s'agit d'évoluer au ras de l'eau à la poursuite d'un sous-marin. Cet appareil est l'héritier direct du Breguet Atlantic. Il en reprend les formes générales, avec un fuselage bilobé caractéristique qui permet de loger une vaste cabine pressurisée au dessus d'une longue soute à armement.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">L' Atlantique 2 hérite également de son prédécesseur une motorisation fiable et économe qui lui offre une endurance maximale de 14 heures de vol.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Si la cellule de motorisation a peu évolué par rapport à l'ATL1, il en va tout autrement pour le système d'armes, les moyens de navigation, de détection et de traitement des données qui ont été considérablement modernisés pour faire face aux nouvelles menaces.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">L' Atlantique 2 embarque notamment : un détecteur d'anomalies magnétiques, capable de repérer la masse métallique d'un sous-marin en plongée à faible profondeur ; un radar Iguane, capable de détecter sur 360° des cibles de surface de très faible dimension, même par mer forte ; un système de détection d'émissions radar ARAR 13, capable d'intercepter et d'identifier des émissions très brèves à grande distance ; un détecteur infrarouge ( FLIR) permettant l'identification de jour comme de nuit, des cibles de surface à grande distance.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Sept consoles de travail permettent aux spécialistes, sous la supervision d'un coordinateur tactique de gérer simultanément l'ensemble des systèmes de l'avion. On peut ajouter à ces équipements de haute technicité, le travail irremplaçable réalisé par les observateurs sur les côtés et dans le nez vitré, pour scruter la mer à l’œil nu où a la jumelle. Un équipage au complet comprend au total douze spécialistes placés sous le commandement d'un commandant d'aéronef, pilote expérimenté dont la responsabilité est de gérer la mission dans son ensemble.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Les Atlantique 2 et leurs équipages doivent aujourd'hui faire face à quatre grandes catégories de mission :</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- sûreté et soutien de la Force océanique stratégique, en escortant les sous-marins de la force de dissuasion dans le proche Atlantique,</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- missions de service public (en soutien des Falcon 50) dont font partie le secours au large, la surveillance du trafic et des infractions maritimes,</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- missions de guerre électronique et de renseignement,</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- projection à l'étranger en soutien du groupe aéronaval.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Quatre points d'emport sous les ailes et une vaste soute permettent de mettre en oeuvre un armement aussi varié que les missions auxquelles doit faire face l'avion. Les bouées de détection sous-marine et torpilles peuvent être employées contre les sous-marins. Contre les cibles en surface, l' Atlantique 2 peut tirer le missile AM-39 Exocet. Quant à l'aide aux naufragés, elle se fait en larguant des chaines SAR, ensembles de survie articulés autour d'un canot gonflable, dont un exemplaire est embarqué à demeure dans la soute de l'avion.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

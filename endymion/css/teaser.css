@@ -1,0 +1,41 @@
+
+
+.teaserelem {
+	min-width: 350px;
+	height: 250px;
+	position: relative;
+	margin: 10px;
+}
+.title-teaser {
+	z-index: 2;
+	position: absolute;
+	color: #FFF;
+	display: inline; 
+	width: 100%;
+	height: 100%;
+	text-align: left;
+}
+.couv-teaser{
+	position: absolute;
+	z-index: 1;
+	height: 100%;
+}
+
+
+.title-teaser a{
+	padding: 15px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	position: absolute;
+	bottom: 0;
+
+	color: #FFF;
+}
+.couv-teaser img {
+		max-height: 100%;
+}
+
+.articleS {
+	display: block;
+}

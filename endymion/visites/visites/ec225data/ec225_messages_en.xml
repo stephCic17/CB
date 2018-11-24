@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[EC225]]></data>
+
+
+
+  <data name="en_pano217_title"><![CDATA[Embarquement]]></data>
+
+
+  <data name="en_pano216_title"><![CDATA[Cabine pilotage]]></data>
+
+
+  <data name="en_pano215_title"><![CDATA[Cabine]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#aeronef]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font face="trebuchet ms, sans-serif" size="4" color="#ff0000">EC225</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">L'EC225 est utilisé dans le cadre des missions d’alerte pour l’assistance et le secours maritime (alerte SECMAR) et de missions militaires liées à l’action de l’État en mer. Il assure également l’entrainement des commandos et le soutien à la force océanique stratégique.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Au nombre de 2, il ont été affectés à la flottille 32F de la BAN de Lanvéoc et livrés courant 2010, en remplacement des Super Frelon.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+</krpano>

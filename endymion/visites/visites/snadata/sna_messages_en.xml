@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[SNA]]></data>
+
+
+
+  <data name="en_pano230_title"><![CDATA[Appareillage]]></data>
+
+
+  <data name="en_pano246_title"><![CDATA[Plage avant]]></data>
+
+
+  <data name="en_pano234_title"><![CDATA[Central Opérations]]></data>
+
+
+  <data name="en_pano236_title"><![CDATA[Cafétériat]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#sous_marin]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">Sous-marin Nucléaire d’Attaque de type RUBIS</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Redoutables chasseurs de sous-marins, les SNA sont indispensables à la sûreté et au soutien de la FOST comme à la protection d’une force aéronavale à la mer.&nbsp;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Ils concourent aussi à une « dissuasion conventionnelle ». Ils peuvent rallier rapidement un théâtre d’opérations, y rester longtemps, discrètement ou si nécessaire plus ostensiblement, y recueillir du renseignement, participer à des opérations spéciales et s’il le faut mettre en œuvre leurs armes : torpilles, missiles antinavires.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Plus encore que le SNA actuels, les six SNA futurs de type Barracuda, dont le premier sera livré en 2017, auront une vocation stratégique.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">À la fois navires de combat et instruments de puissance, ils bénéficient grâce à l’emport du missile de croisière naval d’une capacité de frappe contre la terre dans la profondeur et des moyens accrus de mise en œuvre de forces spéciales.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les SNA sont conçus pour naviguer 220 jours par an. Deux équipages de 70 hommes sont nécessaires pour armer chaque SNA (8 officiers, 52 officiers mariniers et 8 quartiers-maîtres et matelots).</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">L’activité d’un équipage se déroule de la façon suivante :</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- 6 semaines d’entraînement sur les simulateurs de navigation sous-marine,</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- 3 à 5 semaines d’entretien réalisées en commun par les deux équipages, le second équipage rentrant de mission : c’est la passation entre les deux équipages,</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- 13 semaines d’activité opérationnelle à la mer,</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- une nouvelle période d’entretien au retour de mer,</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- les permissions.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

@@ -1,0 +1,67 @@
+/***
+
+CSS: block image launch;
+
+***/
+#launch {
+	top:0;
+	width: auto;
+	
+	background-color: rgba(0,24,94,1);
+
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#image-launch {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+#image-launch img{
+	max-width: 100%;
+	max-height: 100vh;
+
+
+}
+
+#image-launch a {
+	height: 0px;
+}
+#title-launch {
+	position: absolute;
+	z-index: 2;
+	top: 70%;
+	margin-left: 62px;
+}
+
+#title-launch h3 {
+	color: #FFF;
+	font-size: 4vw;
+	font-family: ITC Avant-Garde Gothic Std;
+	-webkit-margin-after: 0px;
+	-webkit-margin-before: 0px;
+}
+
+#title-launch h2 {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 6vw;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
+
+#link-launch {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#link-launch img {
+	position: absolute;
+	z-index: 3;
+	width: 61px;
+	bottom: 2%
+
+}
+

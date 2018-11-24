@@ -1,0 +1,219 @@
+{#
+/**
+ * @file
+ * Theme override for the basic structure of a single Drupal page.
+ *
+ * Variables:
+ * - logged_in: A flag indicating if user is logged in.
+ * - root_path: The root path of the current page (e.g., node, admin, user).
+ * - node_type: The content type for the current node, if the page is a node.
+ * - head_title: List of text elements that make up the head_title variable.
+ *   May contain one or more of the following:
+ *   - title: The title of the page.
+ *   - name: The name of the site.
+ *   - slogan: The slogan of the site.
+ * - page_top: Initial rendered markup. This should be printed before 'page'.
+ * - page: The rendered page markup.
+ * - page_bottom: Closing rendered markup. This variable should be printed after
+ *   'page'.
+ * - db_offline: A flag indicating if the database is offline.
+ * - placeholder_token: The token for generating head, css, js and js-bottom
+ *   placeholders.
+ *
+ * @see template_preprocess_html()
+ */
+#}
+<!DOCTYPE html>
+<html{{ html_attributes }}>
+  <head>
+    <head-placeholder token="{{ placeholder_token|raw }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token|raw }}">
+    <js-placeholder token="{{ placeholder_token|raw }}">
+  </head>
+
+  <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
+  <script type="text/javascript">
+ function getPDFThumb(url)
+ {
+  console.log(url);
+  var id = url;
+  url = 'http://localhost:8888'+url;
+  console.log(url);
+  var pdfJsLib = window['pdf'];
+  //pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
+/*  loadingTask.promise.then(function(pdf) {
+    console.log("lal");
+    pdf.getPage(1).then(console.log("bonjour"));
+    var canvas = document.getElementById('toto');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+    var renderContext = {
+      canvasContext: context,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+    renderTask.then(function () {
+      console.log('Page rendered');
+    });
+  });*/
+  var loadingTask = pdfjsLib.getDocument(url);
+  loadingTask.promise.then(function(pdf) {
+    console.log('PDF loaded');
+
+    // Fetch the first page
+    var pageNumber = 1;
+    pdf.getPage(pageNumber).then(function(page) {
+      console.log('Page loaded');
+
+      var scale = 5;
+      var viewport = page.getViewport(scale);
+
+      // Prepare canvas using PDF page dimensions
+      var canvas = document.getElementById(id);
+      var context = canvas.getContext('2d');
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+     // Render PDF page into canvas context
+     var renderContext = {
+      canvasContext: context,
+      viewport: viewport
+     };
+     var renderTask = page.render(renderContext);
+     renderTask.then(function () {
+      console.log('Page rendered');
+     });
+  });
+  }, function (reason) {
+      // PDF loading error
+      console.error(reason);
+    });
+ }
+ </script>
+ <body{{ attributes }}>
+   <div class="menu" id="menu-launch">
+        <div class="logo">
+          <a href="/cols_bleus_site"><img src="/cols_bleus_site/themes/custom/endymion/logo.svg"></a>
+        </div>
+        {{ page.primary_menu }}
+      </div>
+      <div class="menu-magazine">
+        <div class="close-dropdown">
+          <img onclick="javascript:dropdown_magazine_close('menu-magazine')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+        </div>
+        <div class="link-dropwdown-menu">
+          <div class="link_menu">
+            <h2><a href="/cols_bleus_site/mensuels">mensuels</a>
+              <a href="/cols_bleus_site/lettres-hebdo">lettres hebdomadaires</a>
+              <a href="/cols_bleus_site/archives">archives numérisées</a>
+              <a href="/cols_bleus_site/abonnez-vous">abonnez-vous !</a></h2>
+            </div>
+            <div class="show_last">
+             {{ page.sidebar_second.views_block__last_magazine_block_1}}
+           </div>
+         </div>
+         <footer id="footer" role="contentinfo">
+          {{ page.footer }}
+        </footer>
+      </div>
+
+      <div class="menu-decouvrir">
+        <div class="close-dropdown">
+          <img onclick="javascript:dropdown_magazine_close('menu-decouvrir')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+        </div>
+        <div class="link-dropwdown-menu">
+          <div class="link_menu">
+            <h2><a href="/cols_bleus_site/infographies">infographies</a>
+              <a href="/cols_bleus_site/azimut">azimut</a></h2>
+            </div>
+            <div class="show_last">
+             {{ page.sidebar_second.views_block__last_infographie_block_1}}
+           </div>
+           <footer id="footer" role="contentinfo">
+            {{ page.footer }}
+          </footer>
+        </div>
+
+        <div class="menu-image">
+          <div class="close-dropdown">
+            <img onclick="javascript:dropdown_magazine_close('menu-image')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+          </div>
+          <div class="link-dropwdown-menu">
+            <div class="link_menu">
+              <h2><a href="/cols_bleus_site/visites-360">visites 360</a>
+                <a href="/cols_bleus_site/photos">photos</a>
+                <a href="/cols_bleus_site/videos">vidéos</a></h2>
+              </div>
+              <div class="show_last">
+                {{ page.sidebar_second.views_block__last_photos_block_1}}
+              </div>
+
+              <footer id="footer" role="contentinfo">
+                {{ page.footer }}
+              </footer>
+            </div>
+          </div>
+
+          <script type="text/javascript">
+          function dropdown_menu_mobile_open(id) 
+          {
+            console.log(id);
+            if (document.getElementsByClassName(id)[0].style.display == "block")
+              document.getElementsByClassName(id)[0].style.display = "none";
+            else
+              document.getElementsByClassName(id)[0].style.display = "block";
+          }
+          </script>
+
+          <div class="menu-mobile-launch">
+            <div class="close-dropdown">
+              <img onclick="javascript:dropdown_magazine_close('menu-magazine')" src="/cols_bleus_site/themes/custom/endymion/img/close.svg">
+            </div>
+            <div class="link-dropwdown-menu">
+              <div class="link_menu_mobile">
+                <a href="javascript:dropdown_menu_mobile_open('down_menu_mag')" >magazine</a>
+                
+                <div class="down_menu_mag">
+                  <a href="/cols_bleus_site/mensuels">mensuels</a>
+                  <a href="/cols_bleus_site/lettres-hebdo">lettres hebdomadaires</a>
+                  <a href="/cols_bleus_site/archives">archives numérisées</a>
+                  <a href="/cols_bleus_site/abonnez-vous">abonnez-vous !</a>
+                </div>
+                <a href="javascript:dropdown_menu_mobile_open('down_menu_dec')">découvrir</a>
+
+                <div class="down_menu_dec">
+                  <a href="/cols_bleus_site/infographies">infographies</a>
+                  <a href="/cols_bleus_site/azimut">azimut</a>
+                </div>
+                <a href="javascript:dropdown_menu_mobile_open('down_menu_img')" >en image</a>
+
+                <div class="down_menu_img">
+                  <a href="/cols_bleus_site/visites-360">visites 360</a>
+                  <a href="/cols_bleus_site/photos">photos</a>
+                  <a href="/cols_bleus_site/videos">vidéos</a>
+                </div>
+              </div>
+            </div>
+            <footer id="footer" role="contentinfo">
+              {{ page.footer }}
+            </footer>
+          </div>
+
+  <body{{ attributes }}>
+   
+
+    {#
+      Keyboard navigation/accessibility link to main content section in
+      page.html.twig.
+    #}
+    <a href="#main-content" class="visually-hidden focusable">
+      {{ 'Skip to main content'|t }}
+    </a>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+    <js-bottom-placeholder token="{{ placeholder_token|raw }}">
+  </body>
+</html>

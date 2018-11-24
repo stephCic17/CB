@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[ARGONAUTE]]></data>
+
+
+
+  <data name="en_pano211_title"><![CDATA[Plage arrière]]></data>
+
+
+  <data name="en_pano215_title"><![CDATA[Pont supérieur]]></data>
+
+
+  <data name="en_pano219_title"><![CDATA[Passerelle de navigation]]></data>
+
+
+  <data name="en_pano221_title"><![CDATA[Passerelle arrière]]></data>
+
+
+  <data name="en_pano223_title"><![CDATA[Cuves de stockage]]></data>
+
+
+  <data name="en_pano225_title"><![CDATA[Groupes electrogènes]]></data>
+
+
+  <data name="en_pano227_title"><![CDATA[Machines]]></data>
+
+
+  <data name="en_pano229_title"><![CDATA[PC Machines]]></data>
+
+
+  <data name="en_pano233_title"><![CDATA[Carré]]></data>
+
+
+  <data name="en_pano234_title"><![CDATA[Cuisines]]></data>
+
+
+  <data name="en_pano235_title"><![CDATA[Poste officier]]></data>
+
+
+  <data name="en_pano236_title"><![CDATA[Poste équipage]]></data>
+
+
+  <data name="en_pano238_title"><![CDATA[Salle à manger]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#soutien]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font face="trebuchet ms, sans-serif" size="4" color="#ff0000">Bâtiment de soutien, d'assistance et de dépollution ARGONAUTE</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><span style="color: rgb(255, 255, 255); font-family: 'trebuchet ms', sans-serif; font-size: large;">- Affrété le 31 décembre 2003 pour 5 ans jusqu'au 30 juin 2009 pour la lutte antipollution à Brest avec système TRANSREC 250, en remplacement de l' Ailette redéployée à Toulon ;</span></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- Coque construite à Braila en Roumanie ;</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- Peint en bleu marine (coque) et blanc (superstuctures) ;</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">- Porte depuis 2004 la marque distinctive des bâtiments affectés à l'action de l'État en mer (bandes obliques bleue, blanche et rouge sur la coque).</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">L’ Argonaute a été lancé le 07 juillet 2003 et mis en service le 10 janvier 2004.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Le BSAD Argonaute est un navire multitâches, il est à la fois remorqueur, ravitailleur, releveur d'ancres et navire dépollueur.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

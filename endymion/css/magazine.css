@@ -1,0 +1,45 @@
+#magazine {
+	background-color: rgba(0,24,94,1);
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-top: 25px;
+	padding-top: 50px;
+	height: 75vh;
+}
+
+.menu-magazine h2 {
+	font-family: "ITC Avant-Garde Gothic Std";
+	color: #FFF;
+	font-weight: normal;
+	font-size: 30px;
+	margin: 0;
+	padding-bottom: 3px;
+}
+
+.mensuel {
+	width: 100%;
+	max-width: 300px;
+}
+.mensuelContainer
+{
+	display: inline-block;
+}
+ol {
+    display: inline;
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+.mensuelText {
+	text-align: left;
+}
+.mensuelText-last {
+	text-align: left;
+	color: #FFF;
+}
+.mensuel-last {
+	max-width: 250px;
+}

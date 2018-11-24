@@ -1,0 +1,20 @@
+.photo-diapo {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+	color: #FFF;
+	font-size: 2rem;
+}
+
+ul .photo-diapo {
+	width: 100%;
+}
+.diapo {
+	font-size: 2rem;
+	}
+
+.diapo .field-content {
+	margin-left: 40px;
+	margin-top: 40px;
+
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[SNSM]]></data>
+
+
+
+  <data name="en_pano232_title"><![CDATA[Appareillage]]></data>
+
+
+  <data name="en_pano246_title"><![CDATA[Patrouille]]></data>
+
+
+  <data name="en_pano254_title"><![CDATA[Préparation remorquage]]></data>
+
+
+  <data name="en_pano256_title"><![CDATA[Cabine pilotage]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#snsm]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><span style="color: rgb(255, 0, 0); font-family: 'trebuchet ms', sans-serif; font-size: large;">Société nationale de sauvetage en mer (S.N.S.M.)</span></div><div><span style="color: rgb(255, 0, 0); font-family: 'trebuchet ms', sans-serif; font-size: large;">Vedette de la station de La Ciotat</span></div><font face="trebuchet ms, sans-serif" size="4"><div style="color: rgb(255, 0, 0);"><font color="#ff0000" face="trebuchet ms, sans-serif" size="4"><br></font></div><font color="#ffffff">La SNSM est une association française, reconnue d'utilité publique. Elle a pour vocation à secourir bénévolement et gratuitement les vies humaines en danger, en mer et sur les côtes. Sous l'autorité des CROSS (Centre Régionaux Opérationnels de Surveillance et de Sauvetage) et à sa demande, elle est amenée à participer à des missions de service public dans son domaine de compétence.</font></font>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

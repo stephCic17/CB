@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[SNLE]]></data>
+
+
+
+  <data name="en_pano178_title"><![CDATA[Passerelle]]></data>
+
+
+  <data name="en_pano118_title"><![CDATA[Plage avant]]></data>
+
+
+  <data name="en_pano114_title"><![CDATA[Plage arrière]]></data>
+
+
+  <data name="en_pano98_title"><![CDATA[Barreur]]></data>
+
+
+  <data name="en_pano100_title"><![CDATA[Périscope]]></data>
+
+
+  <data name="en_pano124_title"><![CDATA[Compartiment torpilles]]></data>
+
+
+  <data name="en_pano126_title"><![CDATA[Compartiment missiles]]></data>
+
+
+  <data name="en_pano110_title"><![CDATA[Machines]]></data>
+
+
+  <data name="en_pano86_title"><![CDATA[Briefing commandant]]></data>
+
+
+  <data name="en_pano84_title"><![CDATA[Boulangerie]]></data>
+
+
+  <data name="en_pano88_title"><![CDATA[Cafétériat]]></data>
+
+
+  <data name="en_pano90_title"><![CDATA[Loisir]]></data>
+
+
+  <data name="en_pano92_title"><![CDATA[Cambuse]]></data>
+
+
+  <data name="en_pano94_title"><![CDATA[Carré OMS]]></data>
+
+
+  <data name="en_pano96_title"><![CDATA[Chambre commandant]]></data>
+
+
+  <data name="en_pano104_title"><![CDATA[Coursive centrale]]></data>
+
+
+  <data name="en_pano106_title"><![CDATA[Infirmerie]]></data>
+
+
+  <data name="en_pano108_title"><![CDATA[Salle de bain]]></data>
+
+
+  <data name="en_pano120_title"><![CDATA[Poste équipage]]></data>
+
+
+  <data name="en_pano122_title"><![CDATA[Sport]]></data>
+
+
+  <data name="en_pano128_title"><![CDATA[Cuisines]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#sous_marin]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font face="trebuchet ms, sans-serif" size="4" color="#ff0000">Le sous-marin lanceurs d'engins type LE VIGILANT</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Tapis dans l’océan, indétectables, dotés de 16 missiles portant chacun plusieurs têtes nucléaires, les 4 SNLE patrouillent successivement pour assurer la permanence à la mer de la dissuasion nucléaire. Ils sont regroupés au sein de la Force Océanique Stratégique (FOST).</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">La dissuasion constitue l’ultime garantie contre toute atteinte à nos intérêts vitaux, quelles qu’en soient l’origine et la forme. La présence permanente d’un SNLE en patrouille, de deux si nécessaires, garantit à chaque instant la possibilité d’exécuter une frappe nucléaire qui serait ordonnée par le président de la République.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Pour conserver la disponibilité requise, les SNLE sont armés par deux équipages, repérés par des couleurs, bleu et rouge, comprenant 110 hommes chacun.&nbsp;</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

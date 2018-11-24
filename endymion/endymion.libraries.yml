@@ -1,0 +1,23 @@
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+      css/launch.css: {}
+      css/menu.css: {}
+      css/dropdown.css: {}
+      css/footer.css: {}
+      css/front-map.css: {}
+      css/magazine.css: {}
+      css/annexes.css: {}
+      css/infographies.css: {}
+      css/teaser.css: {}
+      css/alaune.css: {}
+      css/basique-page.css: {}
+      css/article.css: {}
+      css/photo.css: {}
+      css/front-filtres.css: {}
+global-js:
+  js:
+    js/pdfjs-dist/build/pdf.js: {}
+  depenencies:
+    - core/jquery

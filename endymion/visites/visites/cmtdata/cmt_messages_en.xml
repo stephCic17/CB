@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[ORION]]></data>
+
+
+
+  <data name="en_pano290_title"><![CDATA[Plage arrière 1]]></data>
+
+
+  <data name="en_pano291_title"><![CDATA[Plage arrière 2]]></data>
+
+
+  <data name="en_pano289_title"><![CDATA[Aileron babord]]></data>
+
+
+  <data name="en_pano296_title"><![CDATA[Tir 20 mm]]></data>
+
+
+  <data name="en_pano292_title"><![CDATA[Pont supérieur]]></data>
+
+
+  <data name="en_pano294_title"><![CDATA[Passerelle navigation]]></data>
+
+
+  <data name="en_pano281_title"><![CDATA[Centre Opérationnel]]></data>
+
+
+  <data name="en_pano288_title"><![CDATA[Machines]]></data>
+
+
+  <data name="en_pano293_title"><![CDATA[PC sécurité]]></data>
+
+
+  <data name="en_pano284_title"><![CDATA[Coursive]]></data>
+
+
+  <data name="en_pano286_title"><![CDATA[Exercice sécurité]]></data>
+
+
+  <data name="en_pano287_title"><![CDATA[Cuisines]]></data>
+
+
+  <data name="en_pano282_title"><![CDATA[Carré OM]]></data>
+
+
+  <data name="en_pano295_title"><![CDATA[Poste OM]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#boutons]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">Chasseur de mines du type "tripartite" PEGASE</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Les chasseurs de mines du type "tripartite" ont été construits en coopération entre la France, la Belgique et les Pays-Bas.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Le Pégase a été construit par la Direction des Constructions Navales (DCN) à Lorient, mis sur cale le 22 octobre 1980, lancé le 23 avril 1983, entré en service le 30 mai 1985. Le Pégase est basé à Brest.</font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4"><br></font></div><div><font color="#ffffff" face="trebuchet ms, sans-serif" size="4">Missions : détection, localisation, classification, identification puis destruction ou neutralisation des mines par fonds de 10 à 80 mètres ; Guidage des convois sous menace de mines ; Travaux sous la mer, recherche d'épaves.</font></div></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

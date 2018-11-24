@@ -1,0 +1,49 @@
+.tags_filtre {
+	width: 25%;
+	min-width:400px;
+}
+.tagContent 
+{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+.tagBlock {
+	width: 25%;
+	display: inline-flex;
+	text-align: left;
+	min-width: 400px;
+}
+.tagBlock h3 {
+	color: rgba(0,24,94,1);
+	font-size: 1.2rem;
+	font-family: ITC Avant-Garde Gothic Std Demi;
+}
+.tags-name-row
+{
+	    list-style-type: none;
+display: -webkit-inline-box;
+}
+.tag-name-link{
+		font-size: 1rem;
+	border: 2px solid rgba(0,24,94,1);;
+	padding: 4px;
+	padding-top: 8px;
+	font-family: ITC Avant-Garde Gothic Std Demi;
+	color: rgba(0,24,94,1);
+
+}
+.tag-name-link-active{
+		font-size: 1rem;
+	border: 2px solid rgba(0,24,94,1);;
+	padding: 4px;
+	padding-top: 8px;
+	font-family: ITC Avant-Garde Gothic Std Demi;
+	background-color: rgba(0,24,94,1);
+	color: #FFF;
+}
+
+.tag-name {
+	margin-bottom: 2px;
+    padding-inline-start: 0px;
+}

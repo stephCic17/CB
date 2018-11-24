@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[SEMAPHORES GAROUPE]]></data>
+
+
+
+  <data name="en_pano250_title"><![CDATA[Phare]]></data>
+
+
+  <data name="en_pano228_title"><![CDATA[Passerelle extérieur]]></data>
+
+
+  <data name="en_pano230_title"><![CDATA[Passerelle de nuit]]></data>
+
+
+  <data name="en_pano232_title"><![CDATA[Passerelle intérieur]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#semaphore]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">SEMAPHORES</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Même s’ils ne voguent pas sur l’eau mais la surplombent, les sémaphores ont tout d’un navire opérationnel. Armés telle la passerelle d’un bâtiment, ils sont en première ligne et répondent aux missions essentielles de la marine pour toutes les opérations côtières. Depuis la surveillance des approches maritimes jusqu’aux opérations inter-administrations en mer, les sémaphores participent à la sûreté du trafic maritime, à la lutte contre les pollutions et les trafics illicites ou encore aux opérations de sauvetage. Ils concrétisent l’omniprésence de la Marine nationale en surveillant activement la frontière de l’espace Schengen.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Le littoral français est jalonné de 59 sémaphores, chacun ayant un secteur maritime défini. La Manche et la Mer du Nord comptent 14 sémaphores, de la frontière belge à la baie du Mont St Michel. L’Atlantique 26, de la baie de St Malo à la frontière espagnole, et la Méditerranée 19, répartis de la frontière espagnole à la frontière italienne, ainsi qu’en Corse.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

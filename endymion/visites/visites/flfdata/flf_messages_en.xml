@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[SURCOUF]]></data>
+
+
+
+  <data name="en_pano228_title"><![CDATA[Coupée]]></data>
+
+
+  <data name="en_pano230_title"><![CDATA[Passerelle navigation]]></data>
+
+
+  <data name="en_pano232_title"><![CDATA[Central opérations]]></data>
+
+
+  <data name="en_pano234_title"><![CDATA[Machines]]></data>
+
+
+  <data name="en_pano236_title"><![CDATA[PC machines]]></data>
+
+
+  <data name="en_pano238_title"><![CDATA[Mise à l'eau drome]]></data>
+
+
+  <data name="en_pano240_title"><![CDATA[Cuisines]]></data>
+
+
+  <data name="en_pano244_title"><![CDATA[Caférériat]]></data>
+
+
+  <data name="en_pano246_title"><![CDATA[Plage avant]]></data>
+
+
+  <data name="en_pano248_title"><![CDATA[Hôpital]]></data>
+
+
+  <data name="en_pano250_title"><![CDATA[Poste équipage]]></data>
+
+
+  <data name="en_pano252_title"><![CDATA[Sport]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#combat]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">Frégate de type La Fayette SURCOUF</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Deuxième bâtiment d'une série qui compte cinq unités, le Surcouf a été conçu pour intervenir en zone de crise. Bénéficiant d'une grande furtivité et d'une signature acoustique réduite, la frégate Surcouf met en oeuvre l'hélicoptère embarqué Panther, qui lui permet d'étendre de façon considérable la portée de ses senseurs.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">La frégate Surcouf est faite pour être déployée en précurseur afin de collecter des renseignements qui permettront l'intervention d'une force navale. Elle peut être facilement intégrée au sein d'une force multinationale. L'importance accordée à la réduction de sa signature radar et acoustique, sa conception modulaire et son degré élevé d'automatisation la désignent comme un bâtiment innovant.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Mis sur cale le 6 juillet 1992, lancé le 3 juillet 1993, admis au service actif le 7 février 1997, son port d'attache est Toulon. Saint-Malo parraine la frégate Surcouf depuis le 20 mai 2000.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Conçu principalement pour préserver et faire respecter les intérêts de l'État sur les espaces maritimes outre-mer et pour participer au règlement de crises hors Europe, ce bâtiment de combat de premier rang est également susceptible d'être intégré à une force aéronavale. Il peut ainsi être amené à assurer le soutien d'une force d'intervention ou la protection du trafic commercial et effectuer des opérations spéciales ou des missions humanitaires.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

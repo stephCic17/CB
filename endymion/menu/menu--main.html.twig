@@ -1,0 +1,163 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+ #}
+ {% import _self as menus %}
+
+{#
+  We call a macro which calls itself to render the full tree.
+  @see http://twig.sensiolabs.org/doc/tags/macro.html
+  #}
+  <div id="primaryMenu">
+    {{ menus.menu_links(items, attributes, 0) }}
+
+    <script type="text/javascript">
+
+    function dropdown_magazine_open(id)
+    {
+      if (id == "menu-magazine")
+      {
+        document.getElementById('loupe').style.display = "none";
+        document.getElementsByClassName("menu-decouvrir")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image")[0].style.display = "none";
+
+      }
+      else if (id == "menu-decouvrir")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-magazine")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image")[0].style.display = "none";
+      }
+      else if (id == "menu-image")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-decouvrir")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-magazine")[0].style.display = "none";
+      }
+
+      document.getElementsByClassName(id)[0].style.display = "block";
+    }
+    function dropdown_magazine__launch_open(id)
+    {
+      if (id == "menu-magazine-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+        document.getElementsByClassName("menu-decouvrir-launch")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image-launch")[0].style.display = "none";
+        
+      }
+      else if (id == "menu-decouvrir-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-magazine")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-image-launch")[0].style.display = "none";
+      }
+      else if (id == "menu-image-launch")
+      {
+        document.getElementById('loupe').style.display = "none";
+
+        document.getElementsByClassName("menu-decouvrir-launch")[0].style.display = "none"; 
+        document.getElementsByClassName("menu-magazine-launch")[0].style.display = "none";
+      }
+
+      document.getElementsByClassName(id)[0].style.display = "block";
+    }
+    function dropdown_magazine_close(id)
+    {
+      document.getElementsByClassName(id)[0].style.display = "none";
+      document.getElementById('loupe').style.display = "block";
+
+    }
+    function dropdown_menu_open(){
+      if (document.getElementsByClassName('menu-mobile-launch')[0].style.display == "block")
+      {
+        document.getElementsByClassName('menu-mobile-launch')[0].style.display = "none";
+      }
+      else
+        document.getElementsByClassName('menu-mobile-launch')[0].style.display = "block";
+
+    }
+
+    </script>
+
+    {% macro menu_links(items, attributes, menu_level) %}
+    {% import _self as menus %}
+    <script type="text/javascript">
+    console.log("CI");
+    console.log(screen.width);
+    if (screen.width < 600)
+    {
+      console.log("titi");
+      document.getElementById("mobile").style.display = "none";
+      document.getElementById("menuResp").style.display = "block";
+    }
+    else
+    {
+      console.log("okoko");
+      document.getElementById("mobile").style.display = "block";
+      document.getElementById("menuResp").style.display = "none";
+    }
+    </script>
+    <div  id="mobile">
+      <ul class="menuResponsive">
+       <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_menu_open()" data-drupal-link-system-path="&lt;front&gt;">      <img class="menu_mobile" src="/cols_bleus_site/themes/custom/endymion/img/menu_mobile.png">
+        </a>
+        
+      </li>
+
+      {#
+      <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_magazine_open('menu-magazine')" data-drupal-link-system-path="&lt;front&gt;">magazine</a>
+        
+      </li>
+      <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_magazine_open('menu-decouvrir')" data-drupal-link-system-path="node/2">découvrir</a>
+      </li>
+      <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_magazine_open('menu-image')" data-drupal-link-system-path="node/3">en image</a>
+      </li>
+      <li class="menuResponsiveLi">
+        <a href="https://www.etremarin.fr">Etre Marin</a>
+      </li> #}
+    </ul>
+  </div>
+  <div id="menuResp">
+    <ul class="menuResponsive">
+      <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_magazine_open('menu-magazine')" data-drupal-link-system-path="&lt;front&gt;">magazine</a>
+        
+      </li>
+      <li class="menuResponsiveLi"> 
+        <a href="javascript:dropdown_magazine_open('menu-decouvrir')" data-drupal-link-system-path="node/2">découvrir</a>
+      </li>
+      <li class="menuResponsiveLi">
+        <a href="javascript:dropdown_magazine_open('menu-image')" data-drupal-link-system-path="node/3">en image</a>
+      </li>
+      <li class="menuResponsiveLi">
+        <a href="https://www.etremarin.fr">Etre Marin</a>
+      </li>
+    </ul>
+  </div>
+
+  {% endmacro %}
+</div>

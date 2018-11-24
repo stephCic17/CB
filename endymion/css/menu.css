@@ -1,0 +1,159 @@
+.menu
+{
+	background-color: rgba(0,24,94,1);
+	width: 100%;
+	z-index: 100;
+	top: 0;
+	text-align: right;
+	position: fixed;
+
+}
+
+.logo {
+	width: 170px;
+	height: auto;
+	vertical-align: middle;
+	padding-left: 10px;
+	position:absolute;
+	margin-top: 10px;
+	
+	}
+
+.logo img{
+	
+}
+.primary-content
+{
+
+	display: inline-flex;
+
+}
+#block-endymion-main-menu {
+	margin-left: 150px;
+	color: white;
+}
+
+#block-endymion-main-menu ul, menu, dir {
+
+	display: inline-flex;
+	list-style-type: inherit;
+
+}
+#block-endymion-main-menu li {
+	display: block;
+	margin: 5px;
+	text-overflow: ellipsis;
+}
+.menu a{
+	color: #fff;
+	font-size: 1.2rem;
+	margin: 10px;
+	text-decoration: none;
+	font-family:  ITC Avant-Garde Gothic Std;
+}
+#menu-launch a{
+	color: #fff;
+	margin: 10px;
+	font-size: 1.2rem;
+	text-decoration: none;
+	font-family:  ITC Avant-Garde Gothic Std;
+
+}
+#loupe {
+	width: 30px;
+	height: auto;
+	padding-right: 20px;
+    top:0;
+    bottom:0;
+    margin:auto;
+
+}
+
+#edit-submit
+{
+	border: none;
+	background-color: transparent;
+	color: transparent;
+	background-image:url("/cols_bleus_site/themes/custom/endymion/img/search.svg");
+	background-repeat: no-repeat;
+	height: 20px;
+}
+
+#search {
+	margin: 10px;
+	margin-right: 0px;
+	display: inline-flex;
+}
+#find-search {
+	display: inline-flex;
+}
+#input-search {
+	display: inline-flex;
+	background-color: transparent;
+}
+input[type="search" i] { 
+	width: 500px;
+	height: 39px;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-size: 15px;
+}
+input[type="search" i]::placeholder { 
+	color: #FFF;
+	opacity: 1;
+	padding-left: 3px;
+	font-weight: lighter;
+}
+
+:focus {
+	outline: none;
+}
+.menu a.is-active ul{
+	width: 100vh;
+
+}
+
+#menu-launch {
+	display: none;
+}
+
+#menu-burger {
+	display: none;
+}
+.link-dropwdown-menu {
+	display: inline;
+}
+.show_last {
+	display: inline-flex;
+	vertical-align: top;
+	float: right;
+	margin-left: 100px;
+}
+
+.link_menu {
+	display: inline-flex;
+}
+
+.mensuelLast {
+	max-width: 500px;
+}
+#mobile {
+	display: none;
+}
+#menuResp {
+	display: block;
+}
+
+@media only screen and (max-width: 800px) {
+#mobile {
+	display: block;
+}
+#menuResp {
+	display: none;
+}
+}
+
+.menu_mobile {
+	width: 40px;
+}

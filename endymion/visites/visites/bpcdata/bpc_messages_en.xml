@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[BPC]]></data>
+
+
+
+  <data name="en_pano230_title"><![CDATA[Pont d'envol]]></data>
+
+
+  <data name="en_pano232_title"><![CDATA[Cérémonie d'appel]]></data>
+
+
+  <data name="en_pano234_title"><![CDATA[Passerelle AVIA]]></data>
+
+
+  <data name="en_pano236_title"><![CDATA[Commandant à la barre]]></data>
+
+
+  <data name="en_pano238_title"><![CDATA[Passerelle Navigation]]></data>
+
+
+  <data name="en_pano240_title"><![CDATA[Timonerie]]></data>
+
+
+  <data name="en_pano242_title"><![CDATA[Ravitaillement à la mer]]></data>
+
+
+  <data name="en_pano244_title"><![CDATA[PC Pont d'envol]]></data>
+
+
+  <data name="en_pano246_title"><![CDATA[Dentiste]]></data>
+
+
+  <data name="en_pano248_title"><![CDATA[Hôpital]]></data>
+
+
+  <data name="en_pano250_title"><![CDATA[Radier]]></data>
+
+
+  <data name="en_pano252_title"><![CDATA[Débarquement dans radier]]></data>
+
+
+  <data name="en_pano254_title"><![CDATA[Hangar véhicules]]></data>
+
+
+  <data name="en_pano258_title"><![CDATA[Briefing activités]]></data>
+
+
+  <data name="en_pano260_title"><![CDATA[Briefing Etat-major]]></data>
+
+
+  <data name="en_pano262_title"><![CDATA[Pompiers lourds]]></data>
+
+
+  <data name="en_pano264_title"><![CDATA[Evacuation ressortissants]]></data>
+
+
+  <data name="en_pano266_title"><![CDATA[Boulangerie]]></data>
+
+
+  <data name="en_pano268_title"><![CDATA[Poste équipage]]></data>
+
+
+  <data name="en_pano270_title"><![CDATA[Salle de sport]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#combat]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">Bâtiment de Projection et de Commandement de classe MISTRAL</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les BPC sont des bâtiments qui combinent sur une plate-forme unique les fonctions de :</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- porte-hélicoptères ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- d’hôpital ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- de transport de troupes ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- de mise en œuvre de moyens d’assaut amphibie ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- de moyens de commandement ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- occasionnellement d’école.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les deux premiers, Mistral et Tonnerre, ont été mis en service en 2006 et 2007. Le 3ème, le Dixmude, dont la construction a été décidée en 2008 dans le cadre du plan de relance, a été admis au service actif en juillet 2012.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Ils sont conçus pour :</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- projeter des forces par voie aérienne et maritime ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- conduire des opérations de projection de force et de puissance depuis un poste de commandement ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- soutenir des forces déployées ;</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">- porter assistance aux populations civiles.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les BPC possèdent en outre un haut niveau d’interopérabilité avec nos alliés.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Une plateforme de commandement multinationale, un tremplin pour les opérations amphibies, des capacités hospitalières exceptionnelles : découvrez le navire militaire le plus important en tonnage après le porte-avions Charles de Gaulle.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

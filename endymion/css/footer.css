@@ -1,0 +1,141 @@
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+	background-color: rgba(0,24,94,1);
+}
+
+.footer-img 
+{
+	display: inline-flex;
+	width: 100px;
+	top: 0;
+	bottom: 0;
+
+	padding-left: 15px;
+	margin:auto;
+}
+
+.footer-img img {
+	height: 100px;
+	width: auto;
+}
+
+#block-footer1 ul, menu, dir {
+	float: inherit;
+	display: block;
+	list-style-type: disc;
+
+}
+.footer-link {
+		font-size: 1rem;
+	font-family:  ITC Avant-Garde Gothic Std;
+}
+#block-footer1 li {
+	display: block;
+
+	margin: 5px;
+}
+#block-footer1 a {
+		color: #FFF;
+		text-decoration: none;
+}
+#block-footer1
+{
+	background-color: rgba(0,24,94,1);
+	display: inline-flex;
+}
+#block-footer2 ul, menu, dir {
+	float: inherit;
+	display: block;
+	list-style-type: disc;
+
+}
+#block-footer2 li {
+	display: block;
+	margin: 5px;
+}
+#block-footer2 a {
+		color: #FFF;
+		text-decoration: none;
+}
+#block-footer2
+{
+	background-color: rgba(0,24,94,1);
+	display: inline-flex;
+}
+.footerAlign {
+	display: inline-flex;
+	min-width: 100%;
+}
+.social {
+	display: inline-flex;
+	margin-left:  25px;
+
+}
+.social-item{
+	width: 30px;
+	top:0;
+    bottom:0;
+    margin:auto;
+
+	padding: 5px;
+}
+
+.mailchimp-signup-subscribe-form {
+	
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.mailchimp-newsletter-mergefields {
+	display: inline-flex;
+}
+.js-form-item form-item js-form-type-email form-item-mergevars-email js-form-item-mergevars-email {
+	display: inline-flex;
+}
+.form-email-custom required {
+	display: inline-flex;
+}
+.form-actions js-form-wrapper form-wrapper {
+	display: inline-flex;
+}
+.button js-form-submit form-submit{
+	display: inline-flex;
+}
+.newsletter-title {
+	color: #FFF;
+
+	margin: 2px;
+}
+.newsletter-subscription-submit input[type="submit" i]{
+	display: inline-flex;
+	background-color: #FFF;
+	color: rgba(0,24,94,1);
+	border: inherit;
+	height: 30px;
+	font-size: 15px;
+	margin-left: 5px; 
+}
+.title-newsletter-div {
+	width: 100%;
+}
+
+.form-email-custom {
+width: 200px;
+	height: 24px;
+	background-color: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	font-size: 15px;
+}
+
+.form-email-custom::placeholder { 
+	color: #FFF;
+	opacity: 1;
+	padding-left: 3px;
+	font-weight: lighter;
+}

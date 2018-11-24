@@ -1,0 +1,289 @@
+.body {
+	padding: 10px;
+	text-align: left;
+	display: inline-block;
+	width: 100%;
+}
+
+.paragraphe {
+
+	margin-right: auto;
+	margin-left:auto;
+	width: 50%;
+	min-width: 300px;
+}
+.paragraphe h2 {
+	width: 100%;
+	font-size: 20px;
+}
+.paragraphe p {
+	color: rgba(0,24,94,1);
+	width: 100%;
+	-webkit-margin-before: 0px;
+}
+.p-marge {
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
+.title-page {
+	margin-left: 20px;
+}
+.separator-dots
+{
+	color: rgba(0,24,94,1);
+	font-size: 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.body-multiple{
+	text-align: center;
+	margin: auto;
+}
+.body-1{
+	display: inline-block;
+	width: 30%;
+	padding: 15px;
+	height: 100%;
+	min-width: 100px;
+	vertical-align: top;
+	text-align: left;
+}
+.body-2{
+	display: inline-block;
+	height: 100%;
+	padding: 15px;
+	width: 30%;
+	vertical-align: top;
+	text-align: left;
+	min-width: 100px;
+}
+.paragraphe-body-left {
+	height: 100%;
+	padding: 15px;
+	margin-right: 20%;
+	width: 40%;
+	display: inline-block;
+}
+.body-left{
+	text-align: center;
+	margin: auto;
+}
+.body-left p {
+	color: rgba(0,24,94,1);
+	width: 80%;
+}
+h2 a {
+	width: 100%;
+	font-size: 20px;
+	color: rgba(0,24,94,1);
+	text-decoration: none;
+	margin:	0px;
+}
+
+h1 {
+	font-size: 2.7em;
+	margin-left: 10px;
+	color: rgba(0,24,94,1);
+	font: ITC Avant-Garde Gothic Std
+}
+
+p a{
+	color: rgba(0,24,94,1);
+	text-decoration: none;
+	font-weight: bold;
+}
+.link-h2 {
+	margin:	0px;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
+
+.layout-title {
+	margin-right: 10px;
+}
+.body-text p{
+	margin-left: 20px; 
+	font-weight: lighter;
+	color: rgba(0,24,94,1);
+	width: 40%;
+	min-width: 200px;
+}
+.align-div {
+	margin-left: 20px;
+}
+
+
+
+
+.vignette-visite {
+	background-color: rgba(0,24,94,1);
+	min-width: 250px;
+	width: 150px;
+	height: auto;
+	padding: 15px;
+	display: inline-block;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.vignette-visite  p {
+	text-align: left;
+	color: #FFF;
+
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+}
+
+.vignette-visite  img {
+	text-align: center;
+	max-width:100%;
+	margin-bottom: 15px;
+}
+.explain-visites {
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.align-div .views-element-container {
+	text-align: left;
+}
+
+.photos-couverture img {
+	width: 90%;
+	margin-bottom: 15px;
+}
+.photos-couverture {
+
+}
+.title-couverture-image
+{
+
+}
+.video {
+	width: 70%;
+	text-align: left;
+	display: inline-block;
+}
+.content-video {
+	width: 20%;
+	text-align: left;
+	display: inline-block;
+	margin-left: 15px;
+	vertical-align: top;
+}
+
+.content-video h2 {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+
+.content-video p {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+.video iframe {
+	width: 90%;
+	height: 90%;
+}
+
+.infographie li {
+	min-width: 90%;
+	width: 100%;
+	padding: 10px;
+}
+
+.infographieImg {
+	width: 70%;
+	text-align: left;
+	display: inline-block;
+}
+.infographieText {
+	width: 20%;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.infographieText h2 {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.infographieText p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+.infographieNode {
+	display: inline;
+	height: 100%;
+	min-height: 150px;
+}
+
+
+
+
+.embedresize {
+	margin: auto;
+}
+
+.embedresize div {
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.embedresize iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.intro #intro .embedresize iframe,
+.exit .quizz .embedresize iframe,
+.alreadyplayed #intro .embedresize iframe, 
+.identityset #intro .embedresize iframe, 
+#notabene .embedresize iframe, 
+#message_intro .embedresize iframe, 
+.fancybox_body .embedresize iframe, 
+#comments .embedresize iframe, 
+#description .embedresize iframe, 
+.alreadyplayed .embedresize iframe, 
+#adserver .embedresize iframe {
+	max-width: none !important;
+}
+
+.layout-content-visite {
+	margin-top: 7%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.layout-content-404 {
+	height: 100vh;
+	background-color: rgba(0,24,94,1);
+	text-align: center;
+}
+
+.title404 {
+	padding-top: 10%;
+	padding-left: 5%;
+	text-align: left;
+	background-color: rgba(0,24,94,1);
+}
+.layout-content-404 h2{
+	top: 50%;
+	color: #FFF;
+}
+
+.img404 {
+	height: 60vh;
+	display: inline-block;
+}
+.img404 img {
+	max-width: 100%;
+	max-height: 100%;
+}
+

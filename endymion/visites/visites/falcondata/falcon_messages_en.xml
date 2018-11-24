@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[FALCON]]></data>
+
+
+
+  <data name="en_pano228_title"><![CDATA[Embarquement]]></data>
+
+
+  <data name="en_pano229_title"><![CDATA[Opérateur radar]]></data>
+
+
+  <data name="en_pano230_title"><![CDATA[Cabine pilotage]]></data>
+
+
+  <data name="en_pano231_title"><![CDATA[Observateurs]]></data>
+
+
+
+
+
+
+  <data name="en_buttontooltip"><![CDATA[]]></data>
+  <data name="en_buttonopenurlwebsiteurl"><![CDATA[../index.html#aeronef]]></data>
+
+  <data name="en_project_description"><![CDATA[<div><font color="#ff0000" face="trebuchet ms, sans-serif" size="4">FALCON 50</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les Falcon 50 sont en service au sein de la flottille 24F, sur la base de Lann-Bihoué.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">Les missions de secours en mer, de surveillance des pêches et des zones économiques exclusives, de lutte contre la pollution, de surveillance de la navigation maritime et de lutte contre le narcotrafic constituent le quotidien des équipages.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">À l'avant de l'appareil, les deux pilotes disposent d'une instrumentation moderne, articulée autour de quatre écrans multifonctions et d'un système de gestion de vol FMS optimisé pour les vols de recherche à basse altitude. La précision de navigation est l'affaire de deux centrales inertielles hybridées GPS. Comme tous les autres appareils de surveillance maritime, le Falcon est aussi largement équipé en matériel de communication.</font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff"><br></font></div><div><font face="trebuchet ms, sans-serif" size="4" color="#ffffff">À l'arrière, se trouve tout le matériel nécessaire aux missions de service public. C'est ainsi que huit conteneurs SAR (ensemble de survie contenu dans un radeau gonflable) peuvent être embarqués et largués en vol via une trappe qui s'ouvre dans le plancher. Le Falcon 50 à une autonomie de plus de 6.000 kilomètres et sa vitesse élevée le destinent aux missions loin des côtes.</font></div>]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
