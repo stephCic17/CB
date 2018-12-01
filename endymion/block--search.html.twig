@@ -26,25 +26,6 @@
 	* @see template_preprocess_block()
 	*/
 	#}
-	<script type="text/javascript">
-		function showSearch()
-		{
-
-			if (document.getElementById("searchForm").style.display == "none")	
-			{
-				document.getElementById("primaryMenu").style.display = "none";
-				document.getElementById("loupe").style.display = "none";				
-				document.getElementById("searchForm").style.display = "block";
-			}
-			else
-			{
-				document.getElementById("primaryMenu").style.display = "block";		
-				document.getElementById("loupe").style.display = "block";			
-				document.getElementById("searchForm").style.display = "none";
-			}
-
-		}
-	</script>
 	<div id="loupe">
 		<img onclick="javascript:showSearch()" src="{{base_path}}/cols_bleus_site/themes/custom/endymion/img/search.svg">
 	</div>

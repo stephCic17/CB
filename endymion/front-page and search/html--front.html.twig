@@ -33,65 +33,6 @@
   </head>
 
   <script src="//mozilla.github.io/pdf.js/build/pdf.js"></script>
-  <script type="text/javascript">
- function getPDFThumb(url)
- {
-  console.log(url);
-  var id = url;
-  url = 'http://localhost:8888'+url;
-  console.log(url);
-  var pdfJsLib = window['pdf'];
-  //pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
-/*  loadingTask.promise.then(function(pdf) {
-    console.log("lal");
-    pdf.getPage(1).then(console.log("bonjour"));
-    var canvas = document.getElementById('toto');
-    var context = canvas.getContext('2d');
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-    var renderContext = {
-      canvasContext: context,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-    renderTask.then(function () {
-      console.log('Page rendered');
-    });
-  });*/
-  var loadingTask = pdfjsLib.getDocument(url);
-  loadingTask.promise.then(function(pdf) {
-    console.log('PDF loaded');
-
-    // Fetch the first page
-    var pageNumber = 1;
-    pdf.getPage(pageNumber).then(function(page) {
-      console.log('Page loaded');
-
-      var scale = 5;
-      var viewport = page.getViewport(scale);
-
-      // Prepare canvas using PDF page dimensions
-      var canvas = document.getElementById(id);
-      var context = canvas.getContext('2d');
-      canvas.height = viewport.height;
-      canvas.width = viewport.width;
-
-     // Render PDF page into canvas context
-     var renderContext = {
-      canvasContext: context,
-      viewport: viewport
-     };
-     var renderTask = page.render(renderContext);
-     renderTask.then(function () {
-      console.log('Page rendered');
-     });
-  });
-  }, function (reason) {
-      // PDF loading error
-      console.error(reason);
-    });
- }
- </script>
  <body{{ attributes }}>
    <div class="menu" id="menu-launch">
         <div class="logo">
@@ -157,14 +98,7 @@
           </div>
 
           <script type="text/javascript">
-          function dropdown_menu_mobile_open(id) 
-          {
-            console.log(id);
-            if (document.getElementsByClassName(id)[0].style.display == "block")
-              document.getElementsByClassName(id)[0].style.display = "none";
-            else
-              document.getElementsByClassName(id)[0].style.display = "block";
-          }
+
           </script>
 
           <div class="menu-mobile-launch">
@@ -202,12 +136,6 @@
           </div>
 
   <body{{ attributes }}>
-   
-
-    {#
-      Keyboard navigation/accessibility link to main content section in
-      page.html.twig.
-    #}
     <a href="#main-content" class="visually-hidden focusable">
       {{ 'Skip to main content'|t }}
     </a>

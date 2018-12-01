@@ -18,6 +18,10 @@ global-css:
       css/front-filtres.css: {}
 global-js:
   js:
-    js/pdfjs-dist/build/pdf.js: {}
+    js/menu.js: {}
+    js/article.js: {}
+    js/cardinteractive.js: {}
+    js/tag.js: {}
+    js/pdfjs/build/pdf.js: {}
   depenencies:
     - core/jquery
